@@ -1,23 +1,29 @@
 {
-  "name": "react-factories",
-  "version": "1.0.0",
-  "description": "a few helpers for the react v0.12.0 changes",
-  "main": "index.js",
+  "name": "react-element-factory",
+  "version": "0.0.0",
+  "description": "a few react helpers for the changes from React v0.11.0 to v0.12.0",
+  "main": "./lib/index.js",
+  "author": "skratchdot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skratchdot/react-element-factory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skratchdot/react-element-factory/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "react": "^0.12.0"
   },
   "devDependencies": {
     "cheerio": "^0.17.0",
+    "gulp": "^3.8.9",
+    "gulp-jshint": "^1.8.6",
+    "gulp-nodeunit": "0.0.5",
     "jquery": "^2.1.1",
     "request": "^2.47.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gist.github.com:797af25cec75c43ee056.git"
-  },
-  "author": "skratchdot",
-  "license": "MIT"
+  }
 }

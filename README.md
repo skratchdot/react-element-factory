@@ -1,39 +1,44 @@
-# react-factories
+# react-element-factory
 
-A few react helpers for React v0.12.0
+A few react helpers for the changes from React v0.11.0 to v0.12.0
 
-## dev info
 
-```bash
-git clone git@gist.github.com:/797af25cec75c43ee056.git react-factories
-cd react-factories
-# to re-generate elements
-node ./generate-elements.js
-# to re-generate index.js
-node ./generate-index.js
-```
+## Getting Started
 
-## in your project
+Install the module with: `npm install --save react-element-factory`
 
-package.json dependencies:
-
-```js
-"react": ">=0.12.0",
-"react-factories": "git+ssh://git@gist.github.com:797af25cec75c43ee056.git"
-````
-
-usage:
-
-```js
+```javascript
 var React = require('react');
 
-// add html/svg elements to global scope
-require('react-factories')(this);
+h1(); // doesn't exist
 
-console.log(h1);
+// add html/svg elements to global scope
+require('react-element-factory')(this);
+
+h1(); // now it exists
 ```
 
-## links
+
+## Dev Info
+
+```bash
+git clone git@github.com:skratchdot/react-element-factory.git
+cd react-element-factory
+# to re-generate elements
+node ./scripts/generate-elements.js
+# to re-generate index.js
+node ./scripts/generate-index.js
+```
+
+
+## Links
 
 - https://news.ycombinator.com/item?id=8522695
 - https://gist.github.com/deadlyicon/da8c020662ea8e6002dc
+
+
+## License
+
+Copyright (c) 2014 skratchdot  
+Licensed under the MIT license.
+
