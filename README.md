@@ -19,7 +19,7 @@ package.json dependencies:
 
 ```js
 "react": ">=0.12.0",
-"react-factories": "git://gist.github.com/797af25cec75c43ee056.git"
+"react-factories": "git+ssh://git@gist.github.com:797af25cec75c43ee056.git"
 ````
 
 usage:
