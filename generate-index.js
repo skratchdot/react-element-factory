@@ -1,6 +1,6 @@
 var fs = require('fs');
 var html = require('./html-elements.js')();
-var svg = require('./html-elements.js')();
+var svg = require('./svg-elements.js')();
 var both = html.concat(svg);
 
 var indexScript = [
