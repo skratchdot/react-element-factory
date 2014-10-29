@@ -1,0 +1,22 @@
+{
+  "name": "react-factories",
+  "version": "1.0.0",
+  "description": "a few helpers for the react v0.12.0 changes",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "jquery": "^2.1.1",
+    "react": "^0.12.0",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gist.github.com/797af25cec75c43ee056.git"
+  },
+  "author": "skratchdot",
+  "license": "MIT"
+}
